@@ -14,7 +14,7 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: #212426;
+  background-color: #5C4033;
 }
 
 .app {
@@ -30,9 +30,9 @@ h1 {
   font-size: 3rem;
   letter-spacing: 0.9px;
   background: linear-gradient(
-    90deg,
-    rgba(249, 211, 180, 1) 0%,
-    rgba(249, 211, 180, 0) 100%
+    100deg,
+    #1B0000,
+    rgba(2, 2, 1, 0) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -50,7 +50,7 @@ h1 {
 
   padding: 1.5rem 1.75rem;
   border-radius: 3rem;
-  background: #1f2123;
+  background: #1B0000;
   -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
   box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
 }
@@ -65,7 +65,7 @@ h1 {
 
   outline: none;
   color: #a1a1a1;
-  background: #1f2123;
+  background: #1B0000;
 }
 
 .search img {
@@ -154,7 +154,7 @@ h1 {
 
 .movie div:nth-of-type(3) {
   z-index: 2;
-  background-color: #343739;
+  background-color: #1B0000;
   padding: 16px 24px 24px 24px;
 
   position: absolute;
